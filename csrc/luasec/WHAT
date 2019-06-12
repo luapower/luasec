@@ -1,1 +1,2 @@
 LuaSec 0.8 from https://github.com/brunoos/luasec (MIT license)
+modules: ssl (ssl.config ssl.context ssl.core ssl.x509)
