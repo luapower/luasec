@@ -1,5 +1,5 @@
 ../../luajit src/options.lua -g ../../csrc/openssl/include/openssl/ssl.h > src/options.h
-LS=src/luasocket
+LS=../socket/src
 files="src/config.c src/context.c src/ec.c src/ssl.c src/x509.c
 	$LS/buffer.c $LS/io.c $LS/timeout.c $LS/wsocket.c" \
 	P=mingw64 C="-DWINVER=0x0501 -DLUASOCKET_INET_PTON
